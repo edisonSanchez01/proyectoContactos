@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ConfirmationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="@dimen/sizeTitle"
+        android:text="@string/titleConfirm"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_height="@dimen/heightBtn"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_marginLeft="@dimen/marginSides"
+        android:layout_marginRight="@dimen/marginSides"
+        android:layout_marginBottom="@dimen/txtMarginBottom"
+        android:textSize="@dimen/sizeButtonLetter"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_marginLeft="@dimen/marginSides"
+        android:layout_marginRight="@dimen/marginSides"
+        android:layout_marginBottom="@dimen/txtMarginBottom"
+        android:textSize="@dimen/sizeButtonLetter"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_marginLeft="@dimen/marginSides"
+        android:layout_marginRight="@dimen/marginSides"
+        android:layout_marginBottom="@dimen/txtMarginBottom"
+        android:textSize="@dimen/sizeButtonLetter"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_marginLeft="@dimen/marginSides"
+        android:layout_marginRight="@dimen/marginSides"
+        android:layout_marginBottom="@dimen/txtMarginBottom"
+        android:textSize="@dimen/sizeButtonLetter"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_marginLeft="@dimen/marginSides"
+        android:layout_marginRight="@dimen/marginSides"
+        android:textSize="@dimen/sizeButtonLetter"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnEditDates"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:text="@string/btnEdit"
+        android:textSize="@dimen/sizeButtonLetter"
+        android:theme="@style/btnStyle"
+        android:layout_marginTop="@dimen/marginTopBtn"
+        android:layout_marginLeft="@dimen/marginSides"
+        android:layout_marginRight="@dimen/marginSides"
+        android:layout_height="@dimen/heightBtn"/>
+
+    </LinearLayout>
+
+</ScrollView>

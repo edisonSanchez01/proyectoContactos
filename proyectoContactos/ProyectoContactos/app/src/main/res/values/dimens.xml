@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="heightBtn">70dp</dimen>
+    <dimen name="marginTop">20dp</dimen>
+    <dimen name="marginTopBtn">40dp</dimen>
+    <dimen name="marginSides">32dp</dimen>
+    <dimen name="txtMarginBottom">10dp</dimen>
+    <dimen name="sizeButtonLetter">18sp</dimen>
+    <dimen name="sizeTitle">20sp</dimen>
+
+</resources>
